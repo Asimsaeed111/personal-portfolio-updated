@@ -1,5 +1,5 @@
 export default function MobileExperience() {
-  let experience = [{
+  const experience = [{
     companyname: "ANCO ENGINEERING SERVICES",
     datestart: "Jan-2020",
     dateend: "Cont.",

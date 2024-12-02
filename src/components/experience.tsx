@@ -10,7 +10,7 @@ import {
   
   export default function Experience(){
     // my experience here
-  let experience = [
+  const experience = [
     {
       companyname: "ANCO ENGINEERING SERVICES",
       datestart: " Jan-2020",

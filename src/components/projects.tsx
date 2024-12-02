@@ -10,7 +10,7 @@ import Link from "next/link"
 
 export default function Projects() {
   // my projects here
-  let projects = [{
+  const projects = [{
     name: "Facebook Login Page Clone",
     detail: "This is my first mini project",
     link: "https://fb-clone-liard.vercel.app/",

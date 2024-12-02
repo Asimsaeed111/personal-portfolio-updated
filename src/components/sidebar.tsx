@@ -2,7 +2,7 @@ import { FaDownload } from "react-icons/fa";
 import Typewriter from 'typewriter-effect';
 import { Button } from "./ui/button";
 import { CiFacebook, CiLinkedin, } from "react-icons/ci";
-import { FaFacebook, FaGithub } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import Link from 'next/link';
 import Image from "next/image";
 
@@ -12,7 +12,7 @@ export function Sidebar() {
 
     <div className=" h-screen flex flex-col  justify-center items-center p-3">
       {/* need image */}
-      <img src="/profile.JPG" alt="Profile pic" width={150} height={100} className="rounded-md mx-auto" />
+      <Image src="/profile.JPG" alt="Profile pic" width={150} height={100} className="rounded-md mx-auto" />
 
       {/* name */}
       <div className="mt-2">

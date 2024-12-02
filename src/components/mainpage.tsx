@@ -3,8 +3,7 @@ import { useEffect } from "react";
 // for animation on scroll library
 import AOS from "aos"
 import "aos/dist/aos.css"
-import Image from "next/image";
-import { once } from "events";
+
 import { Detail } from "./detail";
 import { Sidebar } from "./sidebar";
 import Mobilecard from "./mobilecomponents/card";

@@ -1,17 +1,18 @@
 import { FaDownload } from "react-icons/fa";
 import Typewriter from 'typewriter-effect';
 import { CiFacebook, CiLinkedin, } from "react-icons/ci";
-import { FaFacebook, FaGithub } from "react-icons/fa";
+import {FaGithub } from "react-icons/fa";
 import Link from 'next/link';
-import Image from "next/image";
+
 import { Button } from "../ui/button";
+import Image from "next/image";
 
 export default function Mobilecard() {
   return (
     <div className=" h-[90vh]  flex flex-col items-center justify-center">
       <div data-aos="zoom-in" className="card bg-blue-100 w-80 glass p-5 flex flex-col justify-center items-center">
 
-        <img src="/profile.JPG" alt="Profile pic" width={150} height={100} className="rounded-md" />
+        <Image src="/profile.JPG" alt="Profile pic" width={150} height={100} className="rounded-md" />
 
         <div className="card-body">
           {/* Name here */}

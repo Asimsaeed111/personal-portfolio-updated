@@ -1,5 +1,5 @@
 export default function MobileEducation() {
-  let education = [{
+  const education = [{
     uniname: "Sindh Medressatul Islam University Karachi",
     date: "2017",
     field: "Master In Business Administration",

@@ -5,7 +5,6 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
-import { FaCheckSquare } from "react-icons/fa";
 import { Button } from "./ui/button";
 export default function Contact() {
   return (
